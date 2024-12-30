@@ -44,6 +44,9 @@
 - `PORT`: The port the bot will run on.
 - `MINECRAFT_SERVER_URL`: The URL of the Minecraft server.
 
+## 🔗 Related Repositories
+- [Blocketing Fabric Mod](https://github.com/crunnna/blocketing-fabric-mod.git): A Fabric mod for seamless communication between a Discord channel and a Minecraft server, enabling bidirectional message synchronization and command execution. communication between a Discord channel and a Minecraft server, enabling bidirectional message synchronization.
+
 ## 🙏 Acknowledgements
 - [discord.js](https://discord.js.org/) for the Discord API library.
 - [Express](https://expressjs.com/) for the web server framework.
