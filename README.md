@@ -3,6 +3,9 @@
   <h3>Integrate Discord with Minecraft for seamless communication and command execution</h3>
 </div>
 
+## 🔗 Related Repositories
+- [Blocketing Fabric Mod](https://github.com/crunnna/blocketing-fabric-mod.git): A Fabric mod for seamless communication between a Discord channel and a Minecraft server, enabling bidirectional message synchronization and command execution. communication between a Discord channel and a Minecraft server, enabling bidirectional message synchronization.
+
 ## ✨ Features
 - **Message Relay**: Send messages from a specific Discord channel to a Minecraft server. 💬
 - **Command Execution**: Execute Minecraft commands from Discord with proper permissions. 🛠️
@@ -43,9 +46,6 @@
 - `OP_ROLE_ID`: The ID of the role that can execute commands.
 - `PORT`: The port the bot will run on.
 - `MINECRAFT_SERVER_URL`: The URL of the Minecraft server.
-
-## 🔗 Related Repositories
-- [Blocketing Fabric Mod](https://github.com/crunnna/blocketing-fabric-mod.git): A Fabric mod for seamless communication between a Discord channel and a Minecraft server, enabling bidirectional message synchronization and command execution. communication between a Discord channel and a Minecraft server, enabling bidirectional message synchronization.
 
 ## 🙏 Acknowledgements
 - [discord.js](https://discord.js.org/) for the Discord API library.
