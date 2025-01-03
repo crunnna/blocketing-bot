@@ -22,6 +22,7 @@ client.on('messageCreate', async (message) => {
         content: message.content,
     };
 
+    // Send the message to the Minecraft server
     try {
         const response = await fetch(`${MINECRAFT_SERVER_URL}/discord-to-minecraft`, {
             method: 'POST',
@@ -34,6 +35,28 @@ client.on('messageCreate', async (message) => {
         }
     } catch (error) {
         console.error('Error sending message to Minecraft:', error);
+    }
+});
+
+// New endpoint th receive join/leave messages from Minecraft
+app.post('/minecraft-join-leave', async (req, res) => {
+    const { username, action } = req.body;
+
+    if (!username || !action) {
+        return res.status(400).send('Invalid request');
+    }
+
+    const message = `**${username}** has ${action} the server.`;
+
+    try {
+        const channel = await client.channels.fetch(CHANNEL_ID);
+        if (channel.isText()) {
+            await channel.send(message);
+        }
+        res.status(200).send('Message sent to Discord');
+    } catch (error) {
+        console.error('Error sending message to Discord:', error);
+        res.status(500).send('Failed to send message to Discord');
     }
 });
 
