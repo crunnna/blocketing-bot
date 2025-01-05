@@ -77,7 +77,7 @@ client.on('interactionCreate', async interaction => {
 
             if (response.ok) {
                 const embed = new EmbedBuilder()
-                    .setColor('#e20600') // Set the color to #e20600
+                    .setColor('#f1c40f') // Set the color to #f1c40f
                     .setTitle('Command Executed')
                     .setDescription(`**Command:** ${command}\n**Executed by:** ${username}`)
                     .setThumbnail(avatarURL) // Add the user's avatar as a thumbnail
