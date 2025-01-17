@@ -38,6 +38,11 @@ bower_components
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
+# Ignore Dockerfiles
+Dockerfile
+docker-compose.yml
+.dockerignore
+
 # Dependency directories
 node_modules/
 jspm_packages/
