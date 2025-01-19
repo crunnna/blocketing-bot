@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="blocketing.jpeg" alt="Blocketing Logo" width="300" height="300">
   <h1 align="center">Blocketing Bot</h1>
   <h3>Integrate Discord with Minecraft for seamless communication and command execution</h3>
 </div>
