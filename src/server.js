@@ -38,7 +38,7 @@ client.on('messageCreate', async (message) => {
     }
 });
 
-// New endpoint th receive join/leave messages from Minecraft
+// Endpoint to receive join/leave messages from Minecraft
 app.post('/minecraft-join-leave', async (req, res) => {
     const { username, action } = req.body;
 
