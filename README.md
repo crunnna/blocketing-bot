@@ -5,22 +5,37 @@
 </div>
 
 ## 🔗 Related Repositories
-- [Blocketing Fabric Mod](https://github.com/crunnna/blocketing-fabric-mod.git): A Fabric mod for seamless communication between a Discord channel and a Minecraft server, enabling bidirectional message synchronization and command execution. communication between a Discord channel and a Minecraft server, enabling bidirectional message synchronization.
+- [Blocketing Fabric Mod](https://github.com/crunnna/blocketing-fabric-mod): A Fabric mod for seamless communication between a Discord channel and a Minecraft server, enabling bidirectional message synchronization and command execution.
+
+---
 
 ## ✨ Features
-- **Message Relay**: Send messages from a specific Discord channel to a Minecraft server. 💬
-- **Command Execution**: Execute Minecraft commands from Discord with proper permissions. 🛠️
-- **Embed Messages**: Display command execution results in a rich embed format. 📜
+- ✅ **Message Relay**: Sync messages between a Discord channel and a  Minecraft server. 💬
+- ✅ **Command Execution**: Execute Minecraft commands from Discord with proper permissions. 🛠️
+- ✅ **Embed Messages**: Display command execution results in a rich embed format. 📜
 
-## ⚡ Getting Started
+---
+
+## 🔨 Before using this bot
+### 🤖 Setting Up the Minecraft Mod:
+- **Install** the **Blocketing Mod** from the **[Blocketing Fabric Mod](#-related-repositories) repository**.
+
+---
+
+## 🚀 Installation
 > [!IMPORTANT]
-> To set up your Blocketing Bot, begin by cloning the repository and installing the dependencies. Once installed, create a `.env` file in the root directory and add your configuration.
+> 1️⃣ Clone the repository.
 > ```sh
 > git clone https://github.com/crunnna/blocketing-bot.git
+> ```
+> ️2️⃣ Installing the **dependencies**.
+> ```sh
 > cd blocketing-bot
 > npm install
 > ```
-> Add your configuration to the `.env` file:
+> 3️⃣ Create a **`.env`** file in the **root** directory.
+>
+> 4️⃣ Add **your configuration** the **`.env` file:**
 > ```env
 > DISCORD_CLIENT_ID=your_discord_client_id
 > DISCORD_TOKEN=your_discord_token
@@ -31,26 +46,15 @@
 > MINECRAFT_SERVER_URL=http://your.minecraft.server.url
 > ```
 
+---
+
 ## 🚀 Usage
-> ### Starting the Bot
-> You can start the bot with the following command:
-> ```sh
-> npm start
-> ```
-> The bot will log in to Discord and start listening for messages and commands.
+### Starting the Bot
+You can start the bot with the following command:
+```sh
+npm start
+```
 
-## 🌐 Environment Variables
-- `DISCORD_CLIENT_ID`: The ID of the Discord application (Bot ID/Client ID).
-- `DISCORD_TOKEN`: The token of the Discord application (Bot token).
-- `DISCORD_GUILD_ID`: The ID of the Discord server.
-- `DISCORD_CHANNEL_ID`: The ID of the Discord channel.
-- `OP_ROLE_ID`: The ID of the role that can execute commands.
-- `PORT`: The port the bot will run on.
-- `MINECRAFT_SERVER_URL`: The URL of the Minecraft server.
+---
 
-## 🙏 Acknowledgements
-- [discord.js](https://discord.js.org/) for the Discord API library.
-- [Express](https://expressjs.com/) for the web server framework.
-- [dotenv](https://github.com/motdotla/dotenv) for managing environment variables.
-
-### For any questions or issues, please open an issue on this repository. I'm here to help!
+### 📌Need help? Feel free to ask questions or open an issue!
